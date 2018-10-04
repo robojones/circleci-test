@@ -52,6 +52,5 @@ export async function once (
 	const promises = event.map((element) => {
 		return singleOnce(emitter, element, arrayMode)
 	})
-
 	return Promise.race(promises)
 }
