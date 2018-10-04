@@ -1,5 +1,6 @@
 {
-  "name": "once-promise",
+	"name": "once-promise",
+	"private": true,
   "main": "build/index",
   "typings": "build/index",
   "description": "Promisify events.",
